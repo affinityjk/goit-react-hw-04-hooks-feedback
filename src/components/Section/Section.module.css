@@ -1,0 +1,27 @@
+.wrapper {
+  width: 500px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  padding: 20px;
+}
+
+.wrapper:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.title {
+  color: #212121;
+  background-color: #b3d1df;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
