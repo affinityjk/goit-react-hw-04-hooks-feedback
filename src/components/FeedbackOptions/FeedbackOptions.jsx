@@ -1,7 +1,8 @@
 import PropTypes from "prop-types";
 import s from "./FeedbackOptions.module.css";
 
-const FeedbackOptions = ({ options, onLeaveFeedback }) => {
+const FeedbackOptions = ({ onLeaveFeedback }) => {
+  const options = ["good", "neutral", "bad"];
   return (
     <div className={s.wrapper}>
       {options.map(option => {
@@ -26,4 +27,3 @@ FeedbackOptions.propTypes = {
 };
 
 export default FeedbackOptions;
-
